@@ -1,23 +1,14 @@
-//
-//  SceneDelegate.swift
-//  Get Lost
-//
-//  Created by Sullivan De carli on 18/11/2019.
-//  Copyright © 2019 Sullivan De carli. All rights reserved.
-//
-
 import UIKit
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     var window: UIWindow?
 
-
         func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
             guard let windowScene = (scene as? UIWindowScene) else { return }
             window = UIWindow(frame: UIScreen.main.bounds)
             let viewController = ViewController()
-            window?.rootViewController = viewController
+            window?.rootViewController = JourneyRecordVC()
             window?.makeKeyAndVisible()
             window?.windowScene = windowScene
           }

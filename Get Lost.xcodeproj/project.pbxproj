@@ -14,6 +14,8 @@
 		7592F0422382ED590017137E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7592F0402382ED590017137E /* LaunchScreen.storyboard */; };
 		7592F04D2382ED5A0017137E /* Get_LostTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7592F04C2382ED5A0017137E /* Get_LostTests.swift */; };
 		7592F0582382ED5A0017137E /* Get_LostUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7592F0572382ED5A0017137E /* Get_LostUITests.swift */; };
+		75F2D22D2383EA1D00C5656F /* JourneyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F2D22C2383EA1D00C5656F /* JourneyModel.swift */; };
+		75F2D22F2383EAC100C5656F /* JourneyRecordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F2D22E2383EAC100C5656F /* JourneyRecordVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		7592F0532382ED5A0017137E /* Get LostUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Get LostUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7592F0572382ED5A0017137E /* Get_LostUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Get_LostUITests.swift; sourceTree = "<group>"; };
 		7592F0592382ED5A0017137E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75F2D22C2383EA1D00C5656F /* JourneyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JourneyModel.swift; sourceTree = "<group>"; };
+		75F2D22E2383EAC100C5656F /* JourneyRecordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JourneyRecordVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				7592F03E2382ED590017137E /* Assets.xcassets */,
 				7592F0402382ED590017137E /* LaunchScreen.storyboard */,
 				7592F0432382ED590017137E /* Info.plist */,
+				75F2D22C2383EA1D00C5656F /* JourneyModel.swift */,
+				75F2D22E2383EAC100C5656F /* JourneyRecordVC.swift */,
 			);
 			path = "Get Lost";
 			sourceTree = "<group>";
@@ -257,6 +263,8 @@
 			files = (
 				7592F03A2382ED570017137E /* ViewController.swift in Sources */,
 				7592F0362382ED570017137E /* AppDelegate.swift in Sources */,
+				75F2D22F2383EAC100C5656F /* JourneyRecordVC.swift in Sources */,
+				75F2D22D2383EA1D00C5656F /* JourneyModel.swift in Sources */,
 				7592F0382382ED570017137E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
